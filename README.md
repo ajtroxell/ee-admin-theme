@@ -36,5 +36,8 @@ This admin theme completely restyles the Wordpress dashboard to match Expression
 ![Collapsed menus](http://ajtroxell.com/wp-content/uploads/2013/09/ee-admin-theme_22-200x151.jpg)
 
 ##Changelog
+###1.1.0
+* re-styled widget and menu pages
+
 ###1.0.1
 * widefat th color corrected
