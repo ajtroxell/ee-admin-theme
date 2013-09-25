@@ -5,7 +5,7 @@ Plugin Name: EE Admin Theme
 Plugin URI: http://ajtroxell.com/ee-admin-theme
 Description: An Expression Engine styled admin.
 Author: AJ Troxell
-Version: 1.1.0
+Version: 1.1.1
 Author URI: http://ajtroxell.com
 */
 
