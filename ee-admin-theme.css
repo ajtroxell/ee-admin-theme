@@ -138,6 +138,8 @@ a:hover { color: #E11842; text-decoration: underline; }
 
 div.sidebar-name h3, #menu-management .nav-tab, a.rsswidget, #dashboard_right_now td.b, .tool-box .title, #poststuff h3, .metabox-holder h3, .pressthis a, #your-profile legend, .inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title, .tablenav .displaying-num, .widefat th, .quicktags, .search { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #FFF; text-shadow: #666 0 1px 0; }
 
+a.rsswidget { color: #E11842; text-shadow: none }
+
 .inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title { color: #5F6C74; text-shadow: none; }
 
 #poststuff .inside, .postbox .inside { padding-bottom: 5px }
@@ -213,6 +215,8 @@ textarea:focus, textarea.markItUpEditor:focus, input[type="text"]:focus, input[t
 .search-box input[name="s"], #search-plugins input[name="s"], .tagsdiv .newtag { border: 1px solid #8195A0 }
 
 .wp-core-ui .button, .wp-core-ui .button-secondary, .wp-core-ui .button:hover, .wp-core-ui .button:active, .wp-core-ui .button-secondary:hover, .wp-core-ui .button-secondary:active { background: #fc2e5a; background: -moz-linear-gradient(top, #fc2e5a 0%, #c70147 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc2e5a), color-stop(100%,#c70147)); background: -webkit-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: -o-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: -ms-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: linear-gradient(to bottom, #fc2e5a 0%,#c70147 100%); border: 0px; -webkit-box-shadow: none; box-shadow: none; color: #FFF; text-decoration: none; text-shadow: none; }
+
+#dashboard_quick_press a#insert-media-button { color: #FFF }
 
 table.widefat { border: 0px; background: #ECF1F4; border-collapse: collapse; border-spacing: 0px; }
 
@@ -339,6 +343,7 @@ p.description, span.description, .tool-box .title { color: #5F6C74 }
 #menu-management .menu-edit { -webkit-border-top-left-radius: 10px; border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius: 10px }
 
 .howto { color: #FFF; text-shadow: 0 1px 0 #888 }
+#current-theme .howto,.tagsdiv .howto{ color: #5F6C74 }
 
 .menu-settings .howto { color: #5F6C74; text-shadow: 0 1px 0 #FFF }
 
