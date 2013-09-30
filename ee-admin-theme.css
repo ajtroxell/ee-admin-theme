@@ -32,7 +32,9 @@ a:hover { color: #E11842; text-decoration: underline; }
 
 .wp-core-ui .button.button-large, .wp-core-ui .button-group.button-large .button { font-weight: 600 }
 
-.wp-core-ui .button-primary, .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:active { background: #fc2e5a; background: -moz-linear-gradient(top, #fc2e5a 0%, #c70147 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc2e5a), color-stop(100%,#c70147)); background: -webkit-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: -o-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: -ms-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: linear-gradient(to bottom, #fc2e5a 0%,#c70147 100%); border: 0px; -webkit-box-shadow: none; box-shadow: none; color: #FFF; text-decoration: none; text-shadow: none; }
+.wp-core-ui .button-primary, .wp-core-ui .button-primary:hover, .wp-core-ui .button-primary:active { background: #fc2e5a; background: -moz-linear-gradient(top, #fc2e5a 0%, #c70147 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc2e5a), color-stop(100%,#c70147)); background: -webkit-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: -o-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: -ms-linear-gradient(top, #fc2e5a 0%,#c70147 100%); background: linear-gradient(to bottom, #fc2e5a 0%,#c70147 100%); border: 0px; -webkit-box-shadow: none; box-shadow: none; color: #FFF!important; text-decoration: none; text-shadow: none; }
+
+.wp-core-ui .button-primary[disabled], .wp-core-ui .button-primary:disabled, .wp-core-ui .button-primary-disabled,.wp-core-ui .button[disabled], .wp-core-ui .button:disabled, .wp-core-ui .button-secondary[disabled], .wp-core-ui .button-secondary:disabled, .wp-core-ui .button-disabled { color: #fff!important; text-shadow: none!important; background: #A9BAC4!important }
 
 #wp-admin-bar-wp-logo>.ab-item .ab-icon { background: url(icon-logo.png) 0 0 no-repeat }
 
@@ -137,6 +139,10 @@ a:hover { color: #E11842; text-decoration: underline; }
 .widget .widget-inside { border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid; border-color: #5F6C74; -webkit-border-bottom-left-radius: 10px; -webkit-border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px }
 
 div.sidebar-name h3, #menu-management .nav-tab, a.rsswidget, #dashboard_right_now td.b, .tool-box .title, #poststuff h3, .metabox-holder h3, .pressthis a, #your-profile legend, .inline-edit-row fieldset span.title, .inline-edit-row fieldset span.checkbox-title, .tablenav .displaying-num, .widefat th, .quicktags, .search { font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; color: #FFF; text-shadow: #666 0 1px 0; }
+
+#dashboard_right_now { color: #5F6C74; text-shadow: none }
+
+#dashboard_right_now td.b a { text-shadow: none }
 
 a.rsswidget { color: #E11842; text-shadow: none }
 
@@ -342,8 +348,8 @@ p.description, span.description, .tool-box .title { color: #5F6C74 }
 
 #menu-management .menu-edit { -webkit-border-top-left-radius: 10px; border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius: 10px }
 
-.howto { color: #FFF; text-shadow: 0 1px 0 #888 }
-#current-theme .howto,.tagsdiv .howto{ color: #5F6C74 }
+.howto { color: #FFF; text-shadow: none }
+#link-selector p.howto, #link-options p.howto, #current-theme .howto,.tagsdiv .howto{ color: #5F6C74 }
 
 .menu-settings .howto { color: #5F6C74; text-shadow: 0 1px 0 #FFF }
 
@@ -376,6 +382,10 @@ p.description, span.description, .tool-box .title { color: #5F6C74 }
 #side-sortables .add-menu-item-tabs .tabs a { color: #5F6C74 }
 
 .menu-item-settings { border-color: #8195A0 }
+
+.wp-dialog .ui-dialog-titlebar { color: #5F6C74!important; background-color: #B6C0C2!important }
+
+.wp-dialog { border: 1px solid #5F6C74!important }
 
 @media only screen and (max-width: 900px) { 
     .auto-fold #adminmenu li.current .wp-menu-arrow, .auto-fold #adminmenu li.current .wp-menu-arrow div, .auto-fold #adminmenu li.wp-has-current-submenu .wp-menu-arrow div, .auto-fold #adminmenu li.wp-menu-open .wp-menu-arrow, .auto-fold #adminmenu li a:focus .wp-menu-arrow { display: none }
